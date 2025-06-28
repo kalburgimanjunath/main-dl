@@ -1,6 +1,6 @@
 {
   "name": "main-dl",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
   "scripts": {
     "dev": "next dev --turbopack",
@@ -20,7 +20,7 @@
     "@eslint/eslintrc": "^3",
     "@rollup/plugin-terser": "^0.4.4",
     "@storybook/addon-a11y": "^9.0.12",
-    "@storybook/addon-docs": "^9.0.12",
+    "@storybook/addon-docs": "^9.0.14",
     "@storybook/addon-onboarding": "^9.0.12",
     "@storybook/addon-vitest": "^9.0.12",
     "@storybook/nextjs-vite": "^9.0.12",

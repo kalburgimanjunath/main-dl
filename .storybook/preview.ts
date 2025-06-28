@@ -1,5 +1,5 @@
 import type { Preview } from '@storybook/nextjs-vite'
-
+import { themes } from 'storybook/theming';
 const preview: Preview = {
   parameters: {
     controls: {
@@ -14,7 +14,10 @@ const preview: Preview = {
       // 'error' - fail CI on a11y violations
       // 'off' - skip a11y checks entirely
       test: 'todo'
-    }
+    },
+    docs: {
+      theme: themes.dark,
+    },
   },
 };
 
