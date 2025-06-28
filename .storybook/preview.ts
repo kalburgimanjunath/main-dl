@@ -16,7 +16,7 @@ const preview: Preview = {
       test: 'todo'
     },
     docs: {
-      theme: themes.dark,
+      theme: themes.light,
     },
   },
 };
